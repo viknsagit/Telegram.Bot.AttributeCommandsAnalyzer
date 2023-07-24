@@ -6,6 +6,11 @@
 
     <!-- Avoid ID conflicts with the package project. -->
     <PackageId>*$(MSBuildProjectFile)*</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Telegram.Bot.AttributeCommandsAnalyzer</Title>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/viknsagit/Telegram.Bot.AttributeCommandsAnalyzer</RepositoryUrl>
+    <PackageTags>dotnet,telegram-bot</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

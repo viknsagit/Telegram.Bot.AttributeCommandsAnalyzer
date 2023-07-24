@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -10,20 +10,32 @@
   <PropertyGroup>
     <PackageId>Telegram.Bot.AttributeCommandsAnalyzer</PackageId>
     <PackageVersion>1.0.0.0</PackageVersion>
-    <Authors>SpinF</Authors>
+    <Authors>viknsagit</Authors>
     <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
-    <PackageProjectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/viknsagit/Telegram.Bot.AttributeCommandsAnalyzer</PackageProjectUrl>
     <PackageIconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</PackageIconUrl>
-    <RepositoryUrl>http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE</RepositoryUrl>
+    <RepositoryUrl>https://github.com/viknsagit/Telegram.Bot.AttributeCommandsAnalyzer</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Telegram.Bot.AttributeCommandsAnalyzer</Description>
-    <PackageReleaseNotes>Summary of changes made in this release of the package.</PackageReleaseNotes>
-    <Copyright>Copyright</Copyright>
-    <PackageTags>Telegram.Bot.AttributeCommandsAnalyzer, analyzers</PackageTags>
+    <Description>Simple Method Analyzer for Telegram.Bot.AttributeCommands</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Copyright></Copyright>
+    <PackageTags>analyzers,telegram-bot</PackageTags>
     <DevelopmentDependency>true</DevelopmentDependency>
     <NoPackageAnalysis>true</NoPackageAnalysis>
 
     <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);_AddAnalyzersToOutput</TargetsForTfmSpecificContentInPackage>
+
+    <Title>Telegram.Bot.AttributeCommandsAnalyzer</Title>
+
+    <IncludeSymbols>False</IncludeSymbols>
+
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <Company>viknsagit</Company>
+
+    <PackageIcon />
+
+    <PackageReadmeFile />
   </PropertyGroup>
 
   <ItemGroup>
