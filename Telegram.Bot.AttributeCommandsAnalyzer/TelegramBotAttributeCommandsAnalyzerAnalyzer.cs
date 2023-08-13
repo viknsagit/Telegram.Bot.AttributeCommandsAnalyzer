@@ -2,6 +2,7 @@
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Diagnostics;
+
 using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
@@ -52,6 +53,11 @@ namespace Telegram.Bot.AttributeCommandsAnalyzer
                 else if (methodDeclaration.AttributeLists.SelectMany(attrList => attrList.Attributes).Any(attr => attr.Name.ToString() == "CallbackCommand"))
                 {
                     var diagnostic = Diagnostic.Create(Rule, methodDeclaration.GetLocation(), methodDeclaration.Identifier.Text, "CallbackCommand");
+                    context.ReportDiagnostic(diagnostic);
+                }
+                else if (methodDeclaration.AttributeLists.SelectMany(attrList => attrList.Attributes).Any(attr => attr.Name.ToString() == "ReplyCommand"))
+                {
+                    var diagnostic = Diagnostic.Create(Rule, methodDeclaration.GetLocation(), methodDeclaration.Identifier.Text, "ReplyCommand");
                     context.ReportDiagnostic(diagnostic);
                 }
             }

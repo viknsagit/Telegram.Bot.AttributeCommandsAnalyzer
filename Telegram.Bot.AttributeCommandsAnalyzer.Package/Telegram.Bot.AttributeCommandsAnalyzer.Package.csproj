@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -9,7 +9,7 @@
 
   <PropertyGroup>
     <PackageId>Telegram.Bot.AttributeCommandsAnalyzer</PackageId>
-    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>viknsagit</Authors>
     <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/viknsagit/Telegram.Bot.AttributeCommandsAnalyzer</PackageProjectUrl>
@@ -36,6 +36,8 @@
     <PackageIcon />
 
     <PackageReadmeFile />
+
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

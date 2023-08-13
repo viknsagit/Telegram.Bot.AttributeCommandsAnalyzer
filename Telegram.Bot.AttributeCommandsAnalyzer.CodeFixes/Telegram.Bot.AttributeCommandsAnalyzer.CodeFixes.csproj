@@ -5,6 +5,7 @@
     <IsPackable>false</IsPackable>
     <RootNamespace>Telegram.Bot.AttributeCommandsAnalyzer</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
